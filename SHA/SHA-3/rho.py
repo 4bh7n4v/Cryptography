@@ -1,3 +1,4 @@
+LANE_SIZE=64
 def rho(state):
     offsets = [
         [0, 36, 3, 41, 18],
