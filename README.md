@@ -17,11 +17,11 @@ Python implementation of SHA2 and SHA3
   Keccek-f Steps
   The 5 steps are:
 
-  # θ (theta)  
-  # ρ (rho)  
-  # π (pi)  
-  # χ (chi)  
-  # ι (iota)
+  # [θ (theta)](https://github.com/4bh7n4v/Cryptography/blob/main/SHA/SHA-3/Theta_Function.py)  
+  # [ρ (rho)](https://github.com/4bh7n4v/Cryptography/blob/main/SHA/SHA-3/Rho_Function.py)  
+  # [π (pi)](https://github.com/4bh7n4v/Cryptography/blob/main/SHA/SHA-3/Pi_Function.py)  
+  # [χ (chi)](https://github.com/4bh7n4v/Cryptography/blob/main/SHA/SHA-3/CHI_function.py)
+  # [ι (iota)](https://github.com/4bh7n4v/Cryptography/blob/main/SHA/SHA-3/IOTA_Function.py)
   
   In SHA-3 since we have ℓ = 6, we will do this block transformation 24 rounds for each time the function is run. The round, denoted by ir starts at 0, and is
   incremented by 1 each time the iota step finishes. Once ir =24, the output of the iota function will be the new capacity and rate This means that if we have twice
